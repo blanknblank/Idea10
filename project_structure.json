@@ -1,0 +1,71 @@
+{
+    "pet-memories-webapp": {
+        "public": [
+            "index.html",
+            "favicon.ico"
+        ],
+        "src": {
+            "assets": [],
+            "components": {
+                "Auth": [
+                    "Login.js",
+                    "Register.js"
+                ],
+                "Dashboard": [
+                    "UserDashboard.js"
+                ],
+                "Memories": [
+                    "MemoryForm.js",
+                    "MemoryList.js",
+                    "MemoryDetail.js",
+                    "MemoryTimeline.js",
+                    "MemoryAlbum.js"
+                ],
+                "Pets": [
+                    "PetProfile.js",
+                    "PetMilestones.js"
+                ],
+                "Community": [
+                    "CommunityFeed.js",
+                    "Post.js",
+                    "Comment.js"
+                ],
+                "Layout": [
+                    "Header.js",
+                    "Footer.js",
+                    "Sidebar.js"
+                ]
+            },
+            "contexts": [
+                "AuthContext.js",
+                "MemoryContext.js",
+                "PetContext.js",
+                "CommunityContext.js"
+            ],
+            "hooks": [
+                "useLocalStorage.js",
+                "useAuth.js"
+            ],
+            "pages": [
+                "Home.js",
+                "LoginPage.js",
+                "RegisterPage.js",
+                "DashboardPage.js",
+                "MemoryPage.js",
+                "PetPage.js",
+                "CommunityPage.js"
+            ],
+            "utils": [
+                "authUtils.js",
+                "memoryUtils.js",
+                "petUtils.js"
+            ],
+            "App.js": "",
+            "index.js": "",
+            "styles.css": ""
+        },
+        ".gitignore": "",
+        "package.json": "",
+        "README.md": ""
+    }
+}
